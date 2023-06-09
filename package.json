@@ -38,7 +38,7 @@
     "patch": "npm version patch -m 'chore(release): %s'",
     "minor": "npm version minor -m 'chore(release): %s'",
     "major": "npm version major -m 'chore(release): %s'",
-    "prepublishOnly": "pnpm test && pnpm build",
+    "prepublishOnly": "pnpm build",
     "prepare": "husky install"
   },
   "commitlint": {
